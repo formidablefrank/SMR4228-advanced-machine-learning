@@ -12,7 +12,7 @@
 #SBATCH --output=jupyter_notebook.txt
 #SBATCH --error=jupyter_notebook.err
 
-DATA_DIR=/leonardo_scratch/large/userexternal/sdigioia/local_tutorial_walrus/
+DATA_DIR=/leonardo_scratch/large/userexternal/sdigioia/local_tutorial_walrus/SMR4228/week2_Wednesday_tutorial_Payel
 
 cd $DATA_DIR
 
