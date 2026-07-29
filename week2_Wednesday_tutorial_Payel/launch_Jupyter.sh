@@ -12,9 +12,9 @@
 #SBATCH --output=jupyter_notebook.txt
 #SBATCH --error=jupyter_notebook.err
 
-DATA_DIR=/leonardo_scratch/large/userexternal/sdigioia/local_tutorial_walrus/SMR4228/week2_Wednesday_tutorial_Payel
+TUTORIAL_DIR=/leonardo_scratch/large/userexternal/sdigioia/local_tutorial_walrus/SMR4228/week2_Wednesday_tutorial_Payel
 
-cd $DATA_DIR
+cd $TUTORIAL_DIR
 
 source $HOME/Conda_init.txt
 conda deactivate
